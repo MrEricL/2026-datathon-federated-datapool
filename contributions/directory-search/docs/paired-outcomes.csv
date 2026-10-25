@@ -1,0 +1,17 @@
+model_configuration,case_id,v2_literal_fulfillment,v3_literal_fulfillment
+codex-luna-low,handoff-prof-P01,useful_partial,complete
+codex-luna-low,handoff-prof-P02,complete,complete
+codex-luna-low,handoff-prof-P03,complete,complete
+codex-luna-low,handoff-prof-P04,complete,complete
+codex-luna-low,handoff-prof-P05,complete,complete
+codex-luna-low,handoff-prof-P06,complete,complete
+codex-luna-low,handoff-prof-P07,complete,complete
+codex-luna-low,handoff-prof-P08,useful_partial,useful_partial
+codex-sol-high,handoff-prof-P01,complete,complete
+codex-sol-high,handoff-prof-P02,complete,complete
+codex-sol-high,handoff-prof-P03,useful_partial,complete
+codex-sol-high,handoff-prof-P04,complete,complete
+codex-sol-high,handoff-prof-P05,complete,complete
+codex-sol-high,handoff-prof-P06,complete,complete
+codex-sol-high,handoff-prof-P07,complete,complete
+codex-sol-high,handoff-prof-P08,complete,complete

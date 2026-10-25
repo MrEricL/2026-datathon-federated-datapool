@@ -5,6 +5,12 @@
 
 This repository is the working space for the **Federated Data Pool** challenge of the 8th DSSG Berlin Datathon.
 
+## Linked directory search contribution
+
+[Linked directory search for the AWO MCP server](contributions/directory-search/README.md) adds three tools for linked search, attributable entity cards and facility-level filtering with full-match totals. It includes portable source, 24 synthetic regression tests, a patch for the pinned AWO reference server, a real MCP smoke check, and evaluation charts with their limitations.
+
+Start with the contribution README to run the tests or try the patched reference locally.
+
 ## Project Overview
 
 The [Federated Data Pool](https://civic-data.de/machen/werkstattboxen/foederierter-datenpool/) (Föderierter Datenpool) is a collaborative initiative by **Caritas**, **AWO**, and other German welfare organizations. Its goal is to harmonize and make social-service data findable and usable across Germany — without building yet another central directory that needs constant manual maintenance.

@@ -1,0 +1,29 @@
+# Historical observation: approximately 2026-10-24 22:50 UTC.
+# Endpoint: https://sosuse.correlaid.org/directory/sparql
+# Execute each SELECT separately. The live graph may have changed.
+PREFIX schema: <http://schema.org/>
+PREFIX org: <http://www.w3.org/ns/org#>
+SELECT ?type (COUNT(DISTINCT ?s) AS ?n)
+WHERE {
+  VALUES ?type {
+    schema:Service org:OrganizationalUnit
+    schema:Organization schema:PostalAddress
+  }
+  ?s a ?type
+}
+GROUP BY ?type
+
+# Field presence, not verified dialability or current opening status.
+PREFIX schema: <http://schema.org/>
+PREFIX org: <http://www.w3.org/ns/org#>
+SELECT
+  (COUNT(DISTINCT ?s) AS ?facilities)
+  (COUNT(DISTINCT ?tel) AS ?with_tel)
+  (COUNT(DISTINCT ?mail) AS ?with_mail)
+  (COUNT(DISTINCT ?oh) AS ?with_hours)
+WHERE {
+  ?s a org:OrganizationalUnit .
+  OPTIONAL { ?s schema:telephone ?t BIND(?s AS ?tel) }
+  OPTIONAL { ?s schema:email ?e BIND(?s AS ?mail) }
+  OPTIONAL { ?s schema:openingHours ?o BIND(?s AS ?oh) }
+}

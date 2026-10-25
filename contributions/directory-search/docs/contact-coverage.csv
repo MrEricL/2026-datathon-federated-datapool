@@ -1,0 +1,3 @@
+population,observed_at_utc,facilities,with_telephone,with_opening_hours,source_reference
+pinned_reference_sample,immutable_revision,168,34,29,Atrash87/awo-mcp-production@d3842d2974bf86f1ea906436e996e67d9a043a8e/data/einrichtungSchema.csv
+live_federation,2026-10-24T22:50:00Z (approximately),37341,28193,2622,https://sosuse.correlaid.org/directory/sparql

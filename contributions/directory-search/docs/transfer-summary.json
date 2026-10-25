@@ -1,0 +1,220 @@
+{
+  "source_artifact": "Author's archived transfer evaluation summary; exported 2026-10-25. Original execution and review records are not bundled.",
+  "block": "transfer",
+  "questions": 8,
+  "attempts": 48,
+  "judge_model": "gpt-6-astra",
+  "configured_reasoning_effort": "medium",
+  "judge_contexts": 6,
+  "human_reviewed": false,
+  "known_entity_and_prompt_overlap": true,
+  "conditions": [
+    {
+      "condition": "codex-luna-low:baseline",
+      "attempts": 8,
+      "literal_fulfillment": {
+        "complete": 4,
+        "not_useful": 1,
+        "useful_partial": 3
+      },
+      "useful_total": 7,
+      "useful_without_material_factual_error": 4,
+      "material_factual_error_attempts": 3,
+      "material_contact_risk_attempts": 3,
+      "privacy_instruction_compliance": {
+        "compliant": 7,
+        "material_issue": 1
+      },
+      "execution_protocol": {
+        "usable_output": 7,
+        "usable_with_violation": 1
+      }
+    },
+    {
+      "condition": "codex-luna-low:improved",
+      "attempts": 8,
+      "literal_fulfillment": {
+        "useful_partial": 2,
+        "complete": 6
+      },
+      "useful_total": 8,
+      "useful_without_material_factual_error": 6,
+      "material_factual_error_attempts": 2,
+      "material_contact_risk_attempts": 1,
+      "privacy_instruction_compliance": {
+        "material_issue": 2,
+        "compliant": 6
+      },
+      "execution_protocol": {
+        "usable_with_violation": 2,
+        "usable_output": 6
+      }
+    },
+    {
+      "condition": "codex-luna-low:improved-v3",
+      "attempts": 8,
+      "literal_fulfillment": {
+        "complete": 7,
+        "useful_partial": 1
+      },
+      "useful_total": 8,
+      "useful_without_material_factual_error": 7,
+      "material_factual_error_attempts": 1,
+      "material_contact_risk_attempts": 0,
+      "privacy_instruction_compliance": {
+        "compliant": 7,
+        "minor_issue": 1
+      },
+      "execution_protocol": {
+        "usable_output": 7,
+        "usable_with_violation": 1
+      }
+    },
+    {
+      "condition": "codex-sol-high:baseline",
+      "attempts": 8,
+      "literal_fulfillment": {
+        "useful_partial": 5,
+        "complete": 3
+      },
+      "useful_total": 8,
+      "useful_without_material_factual_error": 5,
+      "material_factual_error_attempts": 3,
+      "material_contact_risk_attempts": 2,
+      "privacy_instruction_compliance": {
+        "compliant": 8
+      },
+      "execution_protocol": {
+        "usable_output": 8
+      }
+    },
+    {
+      "condition": "codex-sol-high:improved",
+      "attempts": 8,
+      "literal_fulfillment": {
+        "complete": 7,
+        "useful_partial": 1
+      },
+      "useful_total": 8,
+      "useful_without_material_factual_error": 8,
+      "material_factual_error_attempts": 0,
+      "material_contact_risk_attempts": 0,
+      "privacy_instruction_compliance": {
+        "compliant": 8
+      },
+      "execution_protocol": {
+        "usable_output": 8
+      }
+    },
+    {
+      "condition": "codex-sol-high:improved-v3",
+      "attempts": 8,
+      "literal_fulfillment": {
+        "complete": 8
+      },
+      "useful_total": 8,
+      "useful_without_material_factual_error": 8,
+      "material_factual_error_attempts": 0,
+      "material_contact_risk_attempts": 0,
+      "privacy_instruction_compliance": {
+        "compliant": 8
+      },
+      "execution_protocol": {
+        "usable_output": 8
+      }
+    }
+  ],
+  "paired_v2_v3": {
+    "codex-luna-low": {
+      "literal_complete": {
+        "gains": [
+          "handoff-prof-P01"
+        ],
+        "losses": [],
+        "unchanged": [
+          "handoff-prof-P02",
+          "handoff-prof-P03",
+          "handoff-prof-P04",
+          "handoff-prof-P05",
+          "handoff-prof-P06",
+          "handoff-prof-P07",
+          "handoff-prof-P08"
+        ]
+      },
+      "useful_total": {
+        "gains": [],
+        "losses": [],
+        "unchanged": [
+          "handoff-prof-P01",
+          "handoff-prof-P02",
+          "handoff-prof-P03",
+          "handoff-prof-P04",
+          "handoff-prof-P05",
+          "handoff-prof-P06",
+          "handoff-prof-P07",
+          "handoff-prof-P08"
+        ]
+      },
+      "useful_without_material_factual_error": {
+        "gains": [
+          "handoff-prof-P01"
+        ],
+        "losses": [],
+        "unchanged": [
+          "handoff-prof-P02",
+          "handoff-prof-P03",
+          "handoff-prof-P04",
+          "handoff-prof-P05",
+          "handoff-prof-P06",
+          "handoff-prof-P07",
+          "handoff-prof-P08"
+        ]
+      }
+    },
+    "codex-sol-high": {
+      "literal_complete": {
+        "gains": [
+          "handoff-prof-P03"
+        ],
+        "losses": [],
+        "unchanged": [
+          "handoff-prof-P01",
+          "handoff-prof-P02",
+          "handoff-prof-P04",
+          "handoff-prof-P05",
+          "handoff-prof-P06",
+          "handoff-prof-P07",
+          "handoff-prof-P08"
+        ]
+      },
+      "useful_total": {
+        "gains": [],
+        "losses": [],
+        "unchanged": [
+          "handoff-prof-P01",
+          "handoff-prof-P02",
+          "handoff-prof-P03",
+          "handoff-prof-P04",
+          "handoff-prof-P05",
+          "handoff-prof-P06",
+          "handoff-prof-P07",
+          "handoff-prof-P08"
+        ]
+      },
+      "useful_without_material_factual_error": {
+        "gains": [],
+        "losses": [],
+        "unchanged": [
+          "handoff-prof-P01",
+          "handoff-prof-P02",
+          "handoff-prof-P03",
+          "handoff-prof-P04",
+          "handoff-prof-P05",
+          "handoff-prof-P06",
+          "handoff-prof-P07",
+          "handoff-prof-P08"
+        ]
+      }
+    }
+  }
+}

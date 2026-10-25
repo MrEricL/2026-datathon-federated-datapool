@@ -1,0 +1,4 @@
+# Integration dependencies. Core search/cards and unit tests use the standard library.
+# Pin SDK v1 deliberately: upstream imports mcp.server.fastmcp, not standalone fastmcp.
+mcp==1.25.0
+pandas==2.3.0
