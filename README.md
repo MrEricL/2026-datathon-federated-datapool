@@ -8,6 +8,8 @@ I made social-service data easier for AI to use: connecting services to provider
 
 **[Browse the code](contributions/directory-search/src/) · [Run it locally](contributions/directory-search/README.md) · [Read the evaluation](contributions/directory-search/docs/RESULTS.md)**
 
+[Project Presentation](https://drive.google.com/file/d/1DpY78XSs_EPjHW4htEHuNRojDmREAMVO/view?usp=sharing)
+
 ## The three tools
 
 ### Tool 1 · Record card: `get_entity_card`
